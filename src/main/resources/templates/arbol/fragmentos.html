@@ -91,7 +91,7 @@
                 <div class="card text-center bg-success text-white mb-3">
                     <div class="card-body">
                         <h3>[[#{arbol.total}]]</h3>
-                        <h4 class="fs-2"><i class="fas fa-users"></i> [[${totalArboles}]]</h4>
+                        <h4 class="fs-2"><i class="fas fa-tree"></i> [[${totalArboles}]]</h4>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,6 @@
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title text-center">[[${arbol.nombreComun}]]</h5>
-<!--                                                <p class="card-text">Estado: <span th:text="${arbol.activo} ? 'Activa' : 'Inactiva'"></span></p>-->
                                                 <div class="d-flex justify-content-center">
                                                     <a th:href="@{/arbol/eliminar/}+${arbol.idArbol}" class="btn btn-danger mx-2">
                                                         <i class="fas fa-trash"></i> [[#{accion.eliminar}]]
